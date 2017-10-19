@@ -1,0 +1,30 @@
+/*es un elemento bloque*/
+h1{
+  text-align: center;
+  /*verificando que tipo de elemento es*/
+  outline: 1px solid red;
+}
+/*es elemento inline*/
+img{
+    /*outline: 3px solid blue;*/
+    /*se modifica de acuerdo a su elemento caja*/
+    max-width: 100%;
+}
+/*es un elemento bloque*/
+p{
+  outline: 1px solid orange;
+}
+.caja{
+  width: 420px;
+  /*outline: 1px solid purple*/;
+  box-sizing: border-box;
+  /*se genera un espaciado*/
+  padding: 15px;
+  /*aumenta a 442 en su ancho,dibuja la linea al alrededor*/
+  border: 1px solid #999;
+  /*se mantiene el ancho, sin embargo si se aplica un espacio entre las imagenes*/
+  margin-left: 8px;
+  /*tener en cuenta de tu elemento contenedor*/
+  float: left;
+
+}
